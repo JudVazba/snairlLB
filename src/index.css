@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@theme {
+  --color-snairl-accent-100: #FDF2E9;
+  --color-snairl-accent-500: #E67E22;
+  --color-snairl-accent-600: #D35400;
+  --color-snairl-accent-700: #A04000;
+
+  --color-snairl-base-50:  #FAF9F6;
+  --color-snairl-base-100: #F2F1E9;
+  --color-snairl-base-200: #E3E1D5;
+  --color-snairl-base-800: #4A463C;
+
+  --color-snairl-text: #2C2921;
+
+  --color-snairl-danger-500: #CD6155;
+  --color-snairl-danger-600: #A93026;
+
+  --radius-snairl: 1rem;
+}
