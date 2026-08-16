@@ -9,4 +9,5 @@ export default defineConfig({
     setupFiles: './src/test/setup.js',
     include: ['src/**/*.{test,spec}.{js,jsx}'],
   },
+  base: '/snairlLB/',
 })
