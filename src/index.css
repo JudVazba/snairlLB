@@ -1,5 +1,10 @@
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
+
 @theme {
+  --font-snairl: 'Fredoka', system-ui, sans-serif;
+
   --color-snairl-accent-100: #FDF2E9;
   --color-snairl-accent-500: #E67E22;
   --color-snairl-accent-600: #D35400;
@@ -15,5 +20,10 @@
   --color-snairl-danger-500: #CD6155;
   --color-snairl-danger-600: #A93026;
 
-  --radius-snairl: 1rem;
+  --radius-spiral: 2rem 0.5rem 2rem 0.5rem;
+  --radius-snairl: 1.5rem;
+}
+
+body {
+  font-family: var(--font-snairl);
 }
