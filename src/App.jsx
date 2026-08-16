@@ -102,7 +102,7 @@ function App() {
             <div className="flex items-center justify-between border-b border-snairl-base-100 pb-4">
               <div>
                 <h2 className="text-xl font-bold flex items-center gap-2">
-                  <span>🔘</span> Button
+                  <span>🍃</span> Button
                 </h2>
                 <p className="text-xs text-snairl-base-500 mt-0.5">Acciones principales y variaciones contextuales.</p>
               </div>
@@ -121,7 +121,7 @@ function App() {
             <div className="flex items-center justify-between border-b border-snairl-base-100 pb-4">
               <div>
                 <h2 className="text-xl font-bold flex items-center gap-2">
-                  <span>⏳</span> Loader
+                  <span>🍃</span> Loader
                 </h2>
                 <p className="text-xs text-snairl-base-500 mt-0.5">Indicadores visuales de estado de carga.</p>
               </div>
@@ -144,7 +144,7 @@ function App() {
             <div className="flex items-center justify-between border-b border-snairl-base-100 pb-4">
               <div>
                 <h2 className="text-xl font-bold flex items-center gap-2">
-                  <span>🖼️</span> Image
+                  <span>🍃</span> Image
                 </h2>
                 <p className="text-xs text-snairl-base-500 mt-0.5">Tratamiento de imágenes con radios orgánicos y control de error.</p>
               </div>
@@ -212,7 +212,7 @@ function App() {
             <div className="flex items-center justify-between border-b border-snairl-base-100 pb-4">
               <div>
                 <h2 className="text-xl font-bold flex items-center gap-2">
-                  <span>✏️</span> Input
+                  <span>🍃</span> Input
                 </h2>
                 <p className="text-xs text-snairl-base-500 mt-0.5">Campos de texto con estados de validación e interacción.</p>
               </div>
@@ -233,7 +233,7 @@ function App() {
                 placeholder="hola@snairl.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                startIcon={<span>✉️</span>}
+                startIcon={<span>🍃</span>}
                 rounded="spiral"
               />
 
@@ -278,7 +278,7 @@ function App() {
             <div className="flex items-center justify-between border-b border-snairl-base-100 pb-4">
               <div>
                 <h2 className="text-xl font-bold flex items-center gap-2">
-                  <span>🔽</span> Dropdown
+                  <span>🍃</span> Dropdown
                 </h2>
                 <p className="text-xs text-snairl-base-500 mt-0.5">Menús desplegables para selección y acciones.</p>
               </div>
@@ -325,7 +325,7 @@ function App() {
             <div className="flex items-center justify-between border-b border-snairl-base-100 pb-4">
               <div>
                 <h2 className="text-xl font-bold flex items-center gap-2">
-                  <span>🎛️</span> Switch
+                  <span>🍃</span> Switch
                 </h2>
                 <p className="text-xs text-snairl-base-500 mt-0.5">Conmutadores booleanos interactivos.</p>
               </div>
@@ -378,7 +378,7 @@ function App() {
             <div className="flex items-center justify-between border-b border-snairl-base-100 pb-4">
               <div>
                 <h2 className="text-xl font-bold flex items-center gap-2">
-                  <span>🐌</span> Brand & Glyphs
+                  <span>🍃</span> Brand & Glyphs
                 </h2>
                 <p className="text-xs text-snairl-base-500 mt-0.5">Identidad gráfica y tipografía vectorial.</p>
               </div>
@@ -413,7 +413,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 text-xs font-semibold text-snairl-base-500">
             <span>Snairl UI Library</span>
-            <span>•</span>
+            <span>🍃</span>
             <span>Designed with organic precision by Jud Vazba</span>
           </div>
           <p className="text-xs text-snairl-base-400">
